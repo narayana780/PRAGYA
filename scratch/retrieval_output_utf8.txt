@@ -1,0 +1,258 @@
+﻿warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+==================================================
+1. VERIFY DOCUMENT CHUNKS
+==================================================
+Document ID: 72a9be4e-b1e5-4c06-a5eb-263e696e1de1
+Document Title: PRAGYA_SIH26101_Master_Project_Context
+Page Count: 16
+Material ID: a161b7fd-8de8-430e-bd08-1d8628354742
+Material Filename: PRAGYA_SIH26101_Master_Project_Context.pdf
+Material Status: PROCESSED
+Employee ID: e85b4b98-7177-4c62-8eee-6c6f5702c04a
+Chunk Count: 16
+Document ID: 8fc03413-5790-41f0-9fc0-6ef96e8b2cd2
+Document Title: PRAGYA_SIH26101_Master_Project_Context
+Page Count: 16
+Material ID: 891f0cca-d89f-4974-a231-73ef64c08a43
+Material Filename: PRAGYA_SIH26101_Master_Project_Context.pdf
+Material Status: DELETED
+Employee ID: e85b4b98-7177-4c62-8eee-6c6f5702c04a
+Chunk Count: 16
+Document ID: 533a863c-5e7a-4b4b-a48c-581b54d8cd4a
+Document Title: PRAGYA_SIH26101_Master_Project_Context
+Page Count: 16
+Material ID: 150f040a-01d7-4de3-b522-312058c9b5ef
+Material Filename: PRAGYA_SIH26101_Master_Project_Context.pdf
+Material Status: DELETED
+Employee ID: e85b4b98-7177-4c62-8eee-6c6f5702c04a
+Chunk Count: 16
+
+First 10 chunks for document 72a9be4e-b1e5-4c06-a5eb-263e696e1de1:
+Chunk [0]: id=77159779-a977-4dd4-94a0-3e9840497804, page=1, dim=384, len=1206
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 1 PRAGYA AI-Powered Competency & Personalized Learning  Platform SIH2...
+
+Chunk [1]: id=c5105515-051b-4355-9877-91629cdd9d1d, page=2, dim=384, len=1931
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 2 language Prototype priority Working end-to-end core loop before adv...
+
+Chunk [2]: id=768b3d54-d767-49c6-b91e-c03b71631042, page=3, dim=384, len=1722
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 3 4. Complete PRAGYA functional flow The product flow below is the ma...
+
+Chunk [3]: id=d4e63855-994a-45b1-8062-697df2429904, page=4, dim=384, len=2616
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 4 iGOT integration layer Course discovery, metadata,  enrollment/comp...
+
+Chunk [4]: id=059545cf-0634-49e3-89f9-0af8b7c4f928, page=5, dim=384, len=2093
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 5 Labour Statistics; Agricultural Statistics; Industrial Statistics; ...
+
+Chunk [5]: id=3b5b2759-4d51-45b2-9185-b9c6232ad12f, page=6, dim=384, len=1861
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 6 GIS 25 60 35 Critical Python 40 70 30 High AI/ML 20 40 20 High SQL ...
+
+Chunk [6]: id=01bbd4ea-4308-4294-aacd-1b3826112661, page=7, dim=384, len=1594
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 7 Integration honesty For the prototype, use a clearly labelled MOCK ...
+
+Chunk [7]: id=26c7ef99-76b2-4837-b2df-d26e20b387eb, page=8, dim=384, len=1848
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 8 Difficulty Easy/Medium/Hard + optional Bloom level Validation Sourc...
+
+Chunk [8]: id=1adf2107-b655-4cd9-ac7e-c7596771ed5d, page=9, dim=384, len=2109
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 9 Upload Material PDF/PPT/video upload and processing status Turns pe...
+
+Chunk [9]: id=8b41367f-c94e-48bf-8e4f-d2d104a0a6b0, page=10, dim=384, len=1715
+  Snippet: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 10 Accent 1 Electric cyan / teal Accent 2 Violet / magenta Accent 3 W...
+
+==================================================
+2. SEARCH CHUNK TEXT DIRECTLY
+==================================================
+Term 'PRAGYA': 16 matching chunks
+Term 'SIH26101': 16 matching chunks
+Term 'problem': 4 matching chunks
+Term 'objective': 0 matching chunks
+Term 'solution': 2 matching chunks
+Term 'competency': 16 matching chunks
+Term 'learning': 13 matching chunks
+Term 'MoSPI': 4 matching chunks
+
+==================================================
+3. VERIFY EMBEDDING DATA
+==================================================
+Total Chunks: 16
+Chunks with non-null embedding: 16
+Embedding dimension: min=384, max=384 (Expected 384)
+
+==================================================
+8. VERIFY QUERY EMBEDDING
+==================================================
+Embedding provider: MockEmbeddingProvider
+Query 1 embedding length: 384
+Has nulls: False
+Sample values (first 5): [0.20293959504635012, 0.1475924327609819, 0.03689810819024548, 0.23983770323659562, 0.05534716228536822]
+
+==================================================
+4. BYPASS 0.50 THRESHOLD FOR DEBUGGING (Query A)
+==================================================
+Rank 1:
+  chunk_id: 77159779-a977-4dd4-94a0-3e9840497804
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 1
+  cosine distance: 0.673804
+  similarity score: 0.326196
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 1 PRAGYA AI-Powered Competency & Personalized Learning  Platform SIH26101 | Ministry of Statistics & Programme Implemen
+Rank 2:
+  chunk_id: 99511fac-ee82-4418-8c1d-d91be9c1ebd3
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 14
+  cosine distance: 0.703559
+  similarity score: 0.296441
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 14 competency score update, and receive a changed recommendation. 24. Demo story Time Action What evaluator should noti
+Rank 3:
+  chunk_id: c5105515-051b-4355-9877-91629cdd9d1d
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 2
+  cosine distance: 0.726661
+  similarity score: 0.273339
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 2 language Prototype priority Working end-to-end core loop before advanced breadth 2. Problem in simple language The pr
+Rank 4:
+  chunk_id: 768b3d54-d767-49c6-b91e-c03b71631042
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 3
+  cosine distance: 0.736956
+  similarity score: 0.263044
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 3 4. Complete PRAGYA functional flow The product flow below is the main story we should build and demonstrate. 1. Login
+Rank 5:
+  chunk_id: 29bf7829-92e7-4d0d-95ab-7ca634616b3a
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 16
+  cosine distance: 0.786879
+  similarity score: 0.213121
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 16 Adaptive learning Closed-loop recalibration Interactive / virtual learning Sampling Lab Predictive analytics Explain
+Rank 6:
+  chunk_id: 059545cf-0634-49e3-89f9-0af8b7c4f928
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 5
+  cosine distance: 0.813592
+  similarity score: 0.186408
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 5 Labour Statistics; Agricultural Statistics; Industrial Statistics;  SDG Indicators; Metadata Standards; Data Quality 
+Rank 7:
+  chunk_id: 9b1d0250-2597-43a1-9616-4707061e669e
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 15
+  cosine distance: 0.821850
+  similarity score: 0.178150
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 15 evidence-backed competency -> gap -> personalized learning ->  assessment -> competency recalibration -> new recomme
+Rank 8:
+  chunk_id: 01bbd4ea-4308-4294-aacd-1b3826112661
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 7
+  cosine distance: 0.828300
+  similarity score: 0.171700
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 7 Integration honesty For the prototype, use a clearly labelled MOCK iGOT provider and a production-ready adapter inter
+Rank 9:
+  chunk_id: af4e975d-6128-4e2d-bbf7-0e40fb04522e
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 13
+  cosine distance: 0.856459
+  similarity score: 0.143541
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 13 sources Identity JWT login Authorized government SSO Data Synthetic workforce Approved enterprise HR/LMS integration
+Rank 10:
+  chunk_id: 3b5b2759-4d51-45b2-9185-b9c6232ad12f
+  document: PRAGYA_SIH26101_Master_Project_Context
+  page: 6
+  cosine distance: 0.894036
+  similarity score: 0.105964
+  first 200 chars: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 6 GIS 25 60 35 Critical Python 40 70 30 High AI/ML 20 40 20 High SQL 75 60 0 No gap Statistics 85 80 0 No gap 9. Recomm
+
+==================================================
+5. TEST THREE QUERIES (RAW)
+==================================================
+
+Query A: 'What is the main problem this project solves?'
+  #1: score=0.3262, dist=0.6738, p.1: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #2: score=0.2964, dist=0.7036, p.14: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #3: score=0.2733, dist=0.7267, p.2: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #4: score=0.2630, dist=0.7370, p.3: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #5: score=0.2131, dist=0.7869, p.16: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+
+Query B: 'What is PRAGYA?'
+  #1: score=0.2610, dist=0.7390, p.14: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #2: score=0.1781, dist=0.8219, p.1: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #3: score=0.1648, dist=0.8352, p.3: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #4: score=0.1548, dist=0.8452, p.15: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #5: score=0.1527, dist=0.8473, p.2: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+
+Query C: 'What is SIH26101?'
+  #1: score=0.2818, dist=0.7182, p.14: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #2: score=0.2329, dist=0.7671, p.15: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #3: score=0.2328, dist=0.7672, p.1: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #4: score=0.1707, dist=0.8293, p.2: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+  #5: score=0.1691, dist=0.8309, p.16: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA |
+
+==================================================
+6. TEST A DIRECT TEXT QUERY
+==================================================
+Term 'PRAGYA' matches (2 samples):
+  Chunk 77159779-a977-4dd4-94a0-3e9840497804 (p.1): PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 1 PRAGYA AI-Powered Competency & Person...
+  Chunk c5105515-051b-4355-9877-91629cdd9d1d (p.2): PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 2 language Prototype priority Working e...
+Term 'problem' matches (2 samples):
+  Chunk 77159779-a977-4dd4-94a0-3e9840497804 (p.1): PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 1 PRAGYA AI-Powered Competency & Person...
+  Chunk c5105515-051b-4355-9877-91629cdd9d1d (p.2): PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 2 language Prototype priority Working e...
+Term 'competency' matches (2 samples):
+  Chunk 77159779-a977-4dd4-94a0-3e9840497804 (p.1): PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 1 PRAGYA AI-Powered Competency & Person...
+  Chunk c5105515-051b-4355-9877-91629cdd9d1d (p.2): PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 2 language Prototype priority Working e...
+
+==================================================
+9. CHECK CHUNKING METRICS
+==================================================
+Page count: 16
+Number of chunks: 16
+Average chunk length: 1928.4 chars
+Minimum chunk length: 1206 chars
+Maximum chunk length: 2616 chars
+
+==================================================
+12. TEST KNOWN-CONTENT QUERY
+==================================================
+Exact sentence query: "PRAGYA | SIH26101 | Master Project Context"
+  #1: score=0.5277, dist=0.4723, p.1: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 1 PRAGYA AI-Powered
+  #2: score=0.3067, dist=0.6933, p.3: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 3 4. Complete PRAGY
+  #3: score=0.3026, dist=0.6974, p.16: PRAGYA | SIH26101 | Master Project Context Smart India Hackathon 2026 | PRAGYA | 16 Adaptive learnin
+
+==================================================
+7. INVESTIGATE DOCUMENT FILTER / FRONTEND & BACKEND
+==================================================
+PRAGYA Document ID: 72a9be4e-b1e5-4c06-a5eb-263e696e1de1
+PRAGYA Material ID: a161b7fd-8de8-430e-bd08-1d8628354742
+PRAGYA Employee ID: e85b4b98-7177-4c62-8eee-6c6f5702c04a
+
+All Materials in DB:
+{'material_id': UUID('e556e54b-8db4-4639-b0cd-4298d6bc35d8'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('01c7db7a-00d1-4ce9-a43c-070a08383e93'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('30ef5fe4-5b3e-454e-a5f5-90cc3a5edc83'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('1a421cfe-107d-495d-81ad-f8c5ac6edc9f'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('fcf4471e-8bd6-4b4f-8dd1-5fc33fe426c7'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('5ebbc397-c063-4a79-ac15-43db8ddaa411'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('ceb39711-814d-4ecb-8d4c-ae0fcf9c7a99'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('bbd2a533-08b4-4f5f-8848-bb61edf94a7e'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('855748e7-6e31-4b53-9a4e-44d345c1558a'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('d055f07a-75e8-467f-91a7-99e461b3ed10'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('fb1b35b1-dc60-4e1b-96e0-31bb80d858ec'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('0370271d-f6a0-4fb7-8179-a20a0ec74e1e'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('5b4512b2-9511-4545-a04c-bf97f7d56447'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('a80e50d9-a8c8-449e-bf31-7c893125f4d4'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('be6705e6-f5f2-460a-940e-9dba3b65d61f'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('daa1fdbd-cb53-4506-8cc7-589360cf35b5'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('ddd6bd2a-76f8-4f2e-b91e-7af35f6d7f3f'), 'original_filename': 'Stratified_Sampling_Manual_fd3a45.pdf', 'employee_id': UUID('5e87f78a-5179-4f23-bfd2-26b384ce0b39'), 'doc_id': UUID('4239ecf8-156f-4221-8368-fb10f848a3a5'), 'title': 'Principles of Stratified Sampling in Official Surveys'}
+{'material_id': UUID('4b7b8375-868f-47af-a3fc-841c6579cc59'), 'original_filename': 'Stratified_Sampling_Manual_946dae.pdf', 'employee_id': UUID('5e87f78a-5179-4f23-bfd2-26b384ce0b39'), 'doc_id': UUID('1a0fd52d-74cb-4fb9-8bab-1d4ae96d5cd4'), 'title': 'Principles of Stratified Sampling in Official Surveys'}
+{'material_id': UUID('7b84da5a-c269-4574-912e-6dd2a0bef835'), 'original_filename': 'Stratified_Sampling_Manual_02ed0e.pdf', 'employee_id': UUID('5e87f78a-5179-4f23-bfd2-26b384ce0b39'), 'doc_id': UUID('df1e4a2f-bb41-4e9a-beb8-971fe829326c'), 'title': 'Principles of Stratified Sampling in Official Surveys'}
+{'material_id': UUID('72a220f5-24bf-4211-acc8-da5400ed7176'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('d07a908d-d8e6-487b-9c0e-810da7c00d11'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('150f040a-01d7-4de3-b522-312058c9b5ef'), 'original_filename': 'PRAGYA_SIH26101_Master_Project_Context.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('533a863c-5e7a-4b4b-a48c-581b54d8cd4a'), 'title': 'PRAGYA_SIH26101_Master_Project_Context'}
+{'material_id': UUID('891f0cca-d89f-4974-a231-73ef64c08a43'), 'original_filename': 'PRAGYA_SIH26101_Master_Project_Context.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('8fc03413-5790-41f0-9fc0-6ef96e8b2cd2'), 'title': 'PRAGYA_SIH26101_Master_Project_Context'}
+{'material_id': UUID('018c32eb-61e9-4b76-84b6-a9b359326599'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('b3f8c004-5e8f-4328-85fe-f22195052f3c'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('c99ece8f-56d9-4246-b5f4-991918997b62'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('918f7c87-37dc-400d-8ad1-dd300c981c5f'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('f65b322a-b05e-4085-b6a0-79e4ad3f9727'), 'original_filename': 'Sampling_Guide_26165e.pdf', 'employee_id': UUID('5e87f78a-5179-4f23-bfd2-26b384ce0b39'), 'doc_id': UUID('5830fc28-5fe4-40ed-a13a-72cae3c1eab0'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('67d72080-fab2-41d4-86da-186c607636be'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('317ab0ee-7a04-4083-844f-750e5f7e8b94'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('2619650e-0839-4fd0-89a0-9cbede7a23cc'), 'original_filename': 'Sampling_Guide_82c2a4.pdf', 'employee_id': UUID('5e87f78a-5179-4f23-bfd2-26b384ce0b39'), 'doc_id': UUID('01ae0635-7003-4606-b7e7-2a36d08e4f90'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('62ae3306-e77d-4799-8c2c-eff15b428b01'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('70903dc9-15b2-4406-bab2-a1d43ea96962'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('1f6dd852-632a-4d36-8940-dbdb3b048192'), 'original_filename': 'Sampling_Guide_691e10.pdf', 'employee_id': UUID('5e87f78a-5179-4f23-bfd2-26b384ce0b39'), 'doc_id': UUID('9c7d3063-f035-410f-b599-448d2b181e4a'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('483c2118-fdc7-4a2b-8e31-7c413c3e8520'), 'original_filename': 'Sampling_Manual.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('61ffac77-4b82-46b8-b3bc-2721fc2528ff'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('3e6d8e08-7364-4503-bcc1-114b71644306'), 'original_filename': 'Sampling_Manual_Other.pdf', 'employee_id': UUID('d4e1d903-6fbd-4ada-9c65-48abd8e6fd1e'), 'doc_id': UUID('2a120ba1-3e0b-4bd9-a819-136227bd2fdf'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('e66b51df-7bc1-439d-84b2-dd833d6426a1'), 'original_filename': 'Sampling_Guide_33f2da.pdf', 'employee_id': UUID('5e87f78a-5179-4f23-bfd2-26b384ce0b39'), 'doc_id': UUID('d944b849-5214-419c-bf44-673ec4d1f45b'), 'title': 'Survey Sampling Manual'}
+{'material_id': UUID('a161b7fd-8de8-430e-bd08-1d8628354742'), 'original_filename': 'PRAGYA_SIH26101_Master_Project_Context.pdf', 'employee_id': UUID('e85b4b98-7177-4c62-8eee-6c6f5702c04a'), 'doc_id': UUID('72a9be4e-b1e5-4c06-a5eb-263e696e1de1'), 'title': 'PRAGYA_SIH26101_Master_Project_Context'}
+
+PgVectorStore.search with document_id=72a9be4e-b1e5-4c06-a5eb-263e696e1de1: 5 results
+  score=0.3262, chunk_id=77159779-a977-4dd4-94a0-3e9840497804, p.1
+  score=0.2964, chunk_id=99511fac-ee82-4418-8c1d-d91be9c1ebd3, p.14
+  score=0.2733, chunk_id=c5105515-051b-4355-9877-91629cdd9d1d, p.2
+  score=0.263, chunk_id=768b3d54-d767-49c6-b91e-c03b71631042, p.3
+  score=0.2131, chunk_id=29bf7829-92e7-4d0d-95ab-7ca634616b3a, p.16
+
+PgVectorStore.search with document_id set to material_id=a161b7fd-8de8-430e-bd08-1d8628354742: 0 results

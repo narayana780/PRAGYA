@@ -1,0 +1,26 @@
+{
+  "name": "pragya-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PRAGYA: AI-Powered Competency-Based Personalized Learning and Workforce Intelligence Platform for India's Official Statistical System",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build:web": "npm run build --workspace=apps/web",
+    "lint:web": "npm run lint --workspace=apps/web",
+    "test:api": "cd apps/api && uv run pytest tests/",
+    "dev:api": "cd apps/api && uv run uvicorn app.main:app --reload --port 8000"
+  },
+  "keywords": [
+    "GovTech",
+    "MoSPI",
+    "Competency-Based Learning",
+    "Workforce Intelligence",
+    "SIH2026"
+  ],
+  "author": "PRAGYA SIH Team",
+  "license": "UNLICENSED"
+}
